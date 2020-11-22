@@ -1,0 +1,8 @@
+#字符串转换
+a=['asd','dspkl','hasjkh']
+b = []
+for i in a:
+    c=i.capitalize()
+    list=''.join(c)
+    b.append(list)
+print(b)
